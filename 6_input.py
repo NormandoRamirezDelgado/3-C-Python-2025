@@ -4,7 +4,6 @@
 
 numeroUno = input('Introduce un número entero:')
 numeroDos = input('Introduce un número entero:')
-
 suma = int(numeroUno) + int(numeroDos)
 print(f'La suma es: {suma}')
 

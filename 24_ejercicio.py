@@ -16,5 +16,3 @@ for numero in numeros:
 print(f'{mayores} números son Mayores que el promedio')
 print(f'{menores} números son Menores que el promedio')
 print(f'{iguales} números son Iguales que el promedio')
-        
-

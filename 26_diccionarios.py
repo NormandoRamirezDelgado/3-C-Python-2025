@@ -1,3 +1,4 @@
+'''
 #Creación de Diccionarios
 mi_diccionario = {
     "nombre": "Juan",
@@ -162,3 +163,26 @@ for llave in lista:
     valor = input(f'Introducir un Valor para {llave}: ')
     diccionarioDos[llave] = valor
 print(diccionarioDos)
+'''
+print('')
+mi_diccionario = {
+    "nombre": "Juan",
+    "edad"  : 30,
+    "ciudad": "Madrid",
+}
+
+llave = input('Introducir la Llave a buscar: ')
+llave = input('Introducir la Llave a buscar: ')
+if llave in mi_diccionario:
+    print(f'Llave existente y el valor es {mi_diccionario[llave]}')
+else:
+    print('Llave no Existe en el Diccionario')
+
+print('')
+llave = input('Introducir la Llave a buscar: ')
+for clave in mi_diccionario:
+    if clave == llave:
+        print(f'Llave existente y el valor es {mi_diccionario[llave]}')
+        break
+else:
+    print('Llave no Existe en el Diccionario')

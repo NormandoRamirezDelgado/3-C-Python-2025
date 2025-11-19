@@ -4,6 +4,8 @@ class Coche:
         self.modelo = modelo
         self.color = color
 
+    
+
 # No hace falta pasar el color
 autoUno = Coche("Toyota", "Corolla") 
 # Aquí sí pasamos el color
